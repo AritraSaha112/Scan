@@ -1,0 +1,12 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- page -->
+    <path android:fillColor="#FFFFFF" android:pathData="M38,30h24l10,10v38h-34z" />
+    <!-- folded corner -->
+    <path android:fillColor="#A6F2EA" android:pathData="M62,30v10h10z" />
+    <!-- text lines -->
+    <path android:fillColor="#0B6E69" android:pathData="M44,47h20v3h-20z M44,63h20v3h-20z M44,70h13v3h-13z" />
+    <!-- scan beam -->
+    <path android:fillColor="#FFC94D" android:pathData="M31,54.5h46v3.5h-46z" />
+</vector>
