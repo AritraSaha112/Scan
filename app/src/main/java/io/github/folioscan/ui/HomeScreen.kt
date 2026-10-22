@@ -82,7 +82,7 @@ fun HomeScreen(vm: AppViewModel, snackbar: SnackbarHostState, onScan: () -> Unit
         topBar = {
             if (selected.isEmpty()) {
                 TopAppBar(
-                    title = { Text("Folio Scan", fontWeight = FontWeight.SemiBold) },
+                    title = { Text("Scan", fontWeight = FontWeight.SemiBold) },
                     actions = {
                         IconButton(onClick = onImportPdf) { Icon(Icons.Outlined.PictureAsPdf, "Import PDF") }
                         IconButton(onClick = { vm.navigate(Screen.Settings) }) { Icon(Icons.Outlined.Settings, "Settings") }

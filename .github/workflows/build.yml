@@ -29,18 +29,18 @@ jobs:
         run: gradle assembleRelease --no-daemon --stacktrace
 
       - name: Rename APK
-        run: cp app/build/outputs/apk/release/app-release.apk FolioScan.apk
+        run: cp app/build/outputs/apk/release/app-release.apk Scan.apk
 
       - uses: actions/upload-artifact@v4
         with:
-          name: FolioScan-apk
-          path: FolioScan.apk
+          name: Scan-apk
+          path: Scan.apk
 
       - name: Publish to the "latest" release (direct download on your phone)
         uses: softprops/action-gh-release@v2
         with:
           tag_name: latest
           name: Latest build
-          body: "Built from ${{ github.sha }}. Download FolioScan.apk below and open it on your phone."
-          files: FolioScan.apk
+          body: "Built from ${{ github.sha }}. Download Scan.apk below and open it on your phone."
+          files: Scan.apk
           make_latest: true

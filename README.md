@@ -1,4 +1,6 @@
-# Folio Scan
+# Scan
+
+<img src="logo.png" width="120" alt="Scan logo">
 
 An open-source document scanner for Android with the feature set of the big commercial scanner apps. Everything (scanning, OCR, PDF creation) runs **on the phone**. Nothing is uploaded, and you don't need an account.
 
@@ -22,7 +24,7 @@ Built and tuned for the Galaxy S21 FE (Android 12+, Material You colours), it wo
 
 1. Create an empty repository on GitHub and push this folder to it (`main` branch).
 2. GitHub Actions builds it automatically (about 5–8 minutes).
-3. On your phone open the repo's **Releases → Latest build** and download `FolioScan.apk`.
+3. On your phone open the repo's **Releases → Latest build** and download `Scan.apk`.
 4. Open it and allow "Install unknown apps" for your browser when asked.
 
 Every new push rebuilds and replaces the APK. All builds are signed with the same key (`keystore/`), so updates install over the old version without losing your scans.

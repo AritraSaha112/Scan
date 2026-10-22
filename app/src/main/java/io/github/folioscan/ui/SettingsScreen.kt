@@ -75,7 +75,7 @@ fun SettingsScreen(vm: AppViewModel) {
             )
             HorizontalDivider()
             ListItem(
-                headlineContent = { Text("About Folio Scan 1.0") },
+                headlineContent = { Text("About Scan 1.0") },
                 supportingContent = {
                     Text(
                         "Open-source (Apache-2.0). Scans, text recognition and PDFs are made on your phone; nothing is uploaded. " +

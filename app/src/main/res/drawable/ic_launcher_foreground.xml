@@ -1,12 +1,16 @@
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="108dp" android:height="108dp"
     android:viewportWidth="108" android:viewportHeight="108">
+    <!-- viewfinder brackets -->
+    <path android:strokeColor="#FFFFFFFF" android:strokeWidth="3.5" android:strokeLineCap="round" android:strokeLineJoin="round"
+        android:pathData="M31,41V35Q31,31 35,31H41 M67,31H73Q77,31 77,35V41 M77,67V73Q77,77 73,77H67 M41,77H35Q31,77 31,73V67" />
     <!-- page -->
-    <path android:fillColor="#FFFFFF" android:pathData="M38,30h24l10,10v38h-34z" />
+    <path android:fillColor="#FFFFFFFF" android:pathData="M42,37H60L67,44V71H42Z" />
     <!-- folded corner -->
-    <path android:fillColor="#A6F2EA" android:pathData="M62,30v10h10z" />
+    <path android:fillColor="#FFB9EDE8" android:pathData="M60,37V44H67Z" />
     <!-- text lines -->
-    <path android:fillColor="#0B6E69" android:pathData="M44,47h20v3h-20z M44,63h20v3h-20z M44,70h13v3h-13z" />
-    <!-- scan beam -->
-    <path android:fillColor="#FFC94D" android:pathData="M31,54.5h46v3.5h-46z" />
+    <path android:fillColor="#FF1B5E8F" android:pathData="M47,48h15v2.6h-15z M47,60h15v2.6h-15z M47,65.5h9v2.6h-9z" />
+    <!-- scan beam glow + line -->
+    <path android:fillColor="#33FFC94D" android:pathData="M35,50h38v8h-38z" />
+    <path android:fillColor="#FFFFC94D" android:pathData="M35,53h38v2.6h-38z" />
 </vector>
